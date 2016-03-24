@@ -4,6 +4,8 @@
 
 Stripe color for backgroup.
 
+![](https://i.gyazo.com/411ae41541c74cd8205fffccec346374.png)
+
 ## Installation
 
 [Neobundle](https://github.com/Shougo/neobundle.vim) / [Vundle](https://github.com/gmarik/Vundle.vim) / [vim-plug](https://github.com/junegunn/vim-plug)
