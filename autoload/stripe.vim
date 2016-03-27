@@ -61,7 +61,7 @@ function! s:striper.set(...)
 	let id = s:random_id()
 	if self.config.group_odd !=# ""
 		execute "sign define stripe_odd linehl=" . self.config.group_odd
-		let self.sign_id_list += map(filter(range(1, line), "v:val % 2 == 0"), "s:sign(id, 'stripe_odd', v:val, self.bufnr)")
+		let self.sign_id_list += map(filter(range(1, line), "v:val % 2 != 0"), "s:sign(id, 'stripe_odd', v:val, self.bufnr)")
 	endif
 
 	if self.config.group_even !=# ""
