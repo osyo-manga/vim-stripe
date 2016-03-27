@@ -19,7 +19,7 @@ Plug 'osyo-manga/vim-stripe'
 [pathogen](https://github.com/tpope/vim-pathogen)
 
 ```
-git clone https://github.com/osyo-manga/vim-stripe ~/.vim/bundle/vim-hopping
+git clone https://github.com/osyo-manga/vim-stripe ~/.vim/bundle/vim-stripe
 ```
 
 ## Setting
